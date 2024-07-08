@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>restaurante el gusto del sabor</title>
+    <link rel="icon" type="image/x-icon" href="hongo.jpg">
+</head>
+<body>
+    
+<table>
+<thead>
+<h2><u>menu de comida</u></h2>
+<tr>
+
+<th>nombre del plato</th>
+<th>descripcion</th>
+<th>precio </th>
+</tr>
+</thead>
+<tbody> 
+    <tr>
+     <td>sopa especial</td> 
+     <td>ingredientes exportados de turqia</td>
+     <td>$2000</td>
+    </tr>
+   
+    <tr>
+     <td>tarta especial</td>
+     <td>tartas tradicionales españolas y argentinas (saladas) </td>
+     <td>$5000</td>
+    </tr>
+   
+    <tr>
+      <td>zapallo agridulce</td>
+      <td>zapallo con jamon y miel</td>
+      <td>$7000</td>
+    </tr>
+    
+    <tr>
+    <td>postre gourmet</td>
+    <td>pastafrola</td>
+    <td>$3000</td>
+    </tr>
+
+    <tr>
+    <td>pato a la naranja</td>
+    <td>pato horneado con salsa de naranja</td>
+    <td>$4000</td>
+    </tr>
+
+  </tbody>
+  <tfoot> 
+    
+  </tfoot>
+</table>
+<fieldset>
+<legend><h2>reserva</h2></legend>
+
+
+<form action="#">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+<br>
+
+
+&nbsp;
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+<br>
+
+&nbsp;
+    <label for="personas">Cantidad de personas:</label>
+    <input type="number" id="personas" name="personas" min="1" required>
+<br>
+
+&nbsp;
+    <label for="fecha">Fecha:</label>
+    <input type="date" id="fecha" name="fecha" required>
+
+    <label for="hora">Hora:</label>
+    <input type="time" id="hora" name="hora" required>
+<br>
+
+&nbsp;
+    <label for="comentarios">Comentarios:</label>
+    <textarea id="comentarios" name="comentarios"></textarea>
+
+    <button type="submit">Enviar reserva</button>
+ 
+  </fieldset>
+
+  </form>
+
+</body>
+</html>
