@@ -1,0 +1,105 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+
+/* Header */
+header {
+    background-color: #09612391;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+}
+
+/* Títulos */
+h1 {
+    font-size: 2.5rem;
+    color: #d3e01a;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #1c6116;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+/* Main */
+main {
+    padding: 2rem;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #d6d3c6;
+    border-radius: 8px;
+    border: 1px solid #0ae215;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+/* Aside */
+aside {
+    background-color: #11ce11;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #00ff15;
+}
+
+ul {
+    list-style-type: square;
+    margin-top: 1rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: solid;
+}
+
+/* Footer */
+footer {
+    background-color: #1ac53788;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Estilos adicionales */
+ul li a {
+    display: block;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #291a1a;
+    border-radius: 5px;
+    color: #e5ff00;
+}
+
