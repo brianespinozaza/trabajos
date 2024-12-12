@@ -1,0 +1,126 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(https://rukminim2.flixcart.com/image/850/1000/jqmnv680/poster/r/w/z/medium-pwl-david-bowie-wall-poster-13-19-inches-matte-finish-original-imaek7ubyzmznq9x.jpeg?q=90&crop=false);
+    color: #0f126b; /* Texto violeta */
+}
+    
+/* Header */    
+header {
+    background-color: #c424a1b0; /* Fondo blanco */
+    padding: 25px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #4b0082;
+    font-weight: bolder;
+}
+
+/* Títulos */
+h1, h2 {
+    font-family: 'Georgia', serif; /* Tipografía diferente para títulos */
+    color: #8c0ee6; /* Violeta */
+    text-align: center;
+}
+
+video {
+    justify-content: center;
+    align-items: center;
+        text-align: center;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+
+}
+
+/* Contenido principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+article {
+    max-width: 900px;
+    background-color: #cab0ca; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Formulario */
+#contacto {
+    max-width: 600px;
+    background-color: #8da1e2; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+#contacto label {
+    font-weight: bold;
+    color: #4b0082; /* Violeta */
+}
+
+#contacto input, #contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#contacto button {
+    background-color: #4b0082; /* Violeta */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contacto button:hover {
+    background-color: #6a5acd; /* Violeta más claro */
+}
+
+/* Footer */
+footer {
+    background-color: #c424a1b0;
+    padding: 10px;
+    text-align: center;     
+}
