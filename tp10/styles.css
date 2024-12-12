@@ -1,126 +1,100 @@
 /* Estilo general */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-image: url(https://rukminim2.flixcart.com/image/850/1000/jqmnv680/poster/r/w/z/medium-pwl-david-bowie-wall-poster-13-19-inches-matte-finish-original-imaek7ubyzmznq9x.jpeg?q=90&crop=false);
-    color: #0f126b; /* Texto violeta */
+    margin: 0; /* Elimina los márgenes predeterminados del navegador para el cuerpo de la página. */
+    font-family: Arial, sans-serif; /* Establece la fuente principal para el texto del sitio. */
+    background-image: url(...); /* Aplica una imagen como fondo de la página. */
+    color: #0f126b; /* Define el color del texto en un tono violeta oscuro. */
 }
-    
-/* Header */    
+
+/* Header */
 header {
-    background-color: #c424a1b0; /* Fondo blanco */
-    padding: 25px;
-    text-align: center;
-    font-size: 1.3em;
+    background-color: #c424a1b0; /* Establece un fondo semitransparente de color violeta. */
+    padding: 25px; /* Agrega espacio interno alrededor del contenido del encabezado. */
+    text-align: center; /* Centra horizontalmente el texto dentro del encabezado. */
+    font-size: 1.3em; /* Incrementa el tamaño del texto proporcionalmente. */
 }
 
 header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-header nav ul li {
-    display: inline;
+    list-style: none; /* Elimina los puntos o números de la lista no ordenada. */
+    padding: 0; /* Elimina el espacio interno de la lista. */
+    margin: 0; /* Elimina el espacio externo de la lista. */
+    display: flex; /* Hace que los elementos de la lista se alineen en fila. */
+    justify-content: center; /* Centra los elementos de la lista dentro del contenedor. */
+    gap: 15px; /* Añade un espacio uniforme entre los elementos de la lista. */
 }
 
 header nav ul li a {
-    text-decoration: none;
-    color: #4b0082;
-    font-weight: bolder;
+    text-decoration: none; /* Elimina el subrayado de los enlaces. */
+    color: #4b0082; /* Asigna un color púrpura oscuro a los enlaces. */
+    font-weight: bolder; /* Hace que el texto de los enlaces sea más grueso. */
 }
 
 /* Títulos */
 h1, h2 {
-    font-family: 'Georgia', serif; /* Tipografía diferente para títulos */
-    color: #8c0ee6; /* Violeta */
-    text-align: center;
+    font-family: 'Georgia', serif; /* Cambia la fuente a una serif para los títulos. */
+    color: #8c0ee6; /* Define un color violeta más claro para los títulos. */
+    text-align: center; /* Centra los títulos horizontalmente. */
 }
 
-video {
-    justify-content: center;
-    align-items: center;
-        text-align: center;
-
-}
-
-img {
-    display: block;
-    margin: auto;
-    max-width: 100%;
-
+/* Elementos multimedia */
+video, img {
+    display: block; /* Hace que los elementos ocupen todo el ancho disponible. */
+    margin: auto; /* Centra horizontalmente las imágenes y los videos. */
+    max-width: 100%; /* Evita que las imágenes o videos excedan el ancho del contenedor. */
 }
 
 /* Contenido principal */
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    gap: 20px;
+    display: flex; /* Activa el modelo flex para organizar los elementos del contenido principal. */
+    flex-direction: column; /* Organiza los elementos en una columna. */
+    align-items: center; /* Centra horizontalmente los elementos dentro de `main`. */
+    padding: 20px; /* Agrega espacio interno alrededor del contenido principal. */
+    gap: 20px; /* Crea un espacio entre los elementos de `main`. */
 }
 
+/* Artículos */
 article {
-    max-width: 900px;
-    background-color: #cab0ca; /* Fondo blanco */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 900px; /* Restringe el ancho máximo de los artículos. */
+    background-color: #cab0ca; /* Asigna un fondo violeta claro. */
+    padding: 20px; /* Agrega espacio interno. */
+    border-radius: 8px; /* Redondea las esquinas del artículo. */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil alrededor del artículo. */
 }
 
-section {
-    margin-bottom: 20px;
-}
-
-/* Formulario */
+/* Formulario de contacto */
 #contacto {
-    max-width: 600px;
-    background-color: #8da1e2; /* Fondo blanco */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Establece un ancho máximo para el formulario. */
+    background-color: #8da1e2; /* Define un fondo azul claro. */
+    padding: 20px; /* Agrega espacio interno. */
+    border-radius: 8px; /* Redondea las esquinas del formulario. */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil. */
 }
 
 #contacto form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
+    display: flex; /* Activa flex para el formulario. */
+    flex-direction: column; /* Organiza los elementos del formulario en columna. */
+    gap: 15px; /* Añade un espacio uniforme entre los campos del formulario. */
+    align-items: center; /* Centra los elementos dentro del formulario. */
 }
 
-#contacto label {
-    font-weight: bold;
-    color: #4b0082; /* Violeta */
-}
-
-#contacto input, #contacto textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #000000;
-    border-radius: 4px;
-    font-size: 16px;
-}
-
+/* Botones */
 #contacto button {
-    background-color: #4b0082; /* Violeta */
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
+    background-color: #4b0082; /* Establece un color púrpura oscuro. */
+    color: #ffffff; /* Asigna un color blanco al texto del botón. */
+    border: none; /* Elimina bordes predeterminados. */
+    padding: 10px 20px; /* Agrega espacio interno horizontal y vertical. */
+    border-radius: 4px; /* Redondea las esquinas del botón. */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón. */
 }
 
 #contacto button:hover {
-    background-color: #6a5acd; /* Violeta más claro */
+    background-color: #6a5acd; /* Cambia el color del botón a un tono más claro al pasar el mouse. */
 }
 
 /* Footer */
 footer {
-    background-color: #c424a1b0;
-    padding: 10px;
-    text-align: center;     
+    background-color: #c424a1b0; /* Aplica un fondo semitransparente al pie de página. */
+    padding: 10px; /* Agrega espacio interno alrededor del contenido. */
+    text-align: center; /* Centra el texto horizontalmente. */
 }
+
