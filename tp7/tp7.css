@@ -73,7 +73,7 @@ aside {
 }
 
 ul {
-    list-style-type: square;
+    list-style-type: none;
     margin-top: 1rem;
 }
 
@@ -102,4 +102,3 @@ ul li a {
     border-radius: 5px;
     color: #e5ff00;
 }
-
